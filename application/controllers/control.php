@@ -35,10 +35,10 @@ class control extends CI_Controller {
 
 	public function joinnow()
 	{
-	$this->load->view('HnF/head');
+	$this->load->view('HnF/head1');
 	$this->load->view('style');
 	$this->load->view('join1');
-	$this->load->view('HnF/footer1');
+	$this->load->view('HnF/footer2');
 	
 	}
 

@@ -75,7 +75,7 @@
             <div class="search-content">
               <h3>Search for someone by name: </h3>
               
-              <form id="search-form" class="form-inline" action="">
+              <form id="search-form" class="form-inline" action="#">
                 <input type="text" name="fname" placeholder="First Name">
                 <input type="text" name="lname" placeholder="Last Name">
                 <button type="submit" class="btn">Go</button>

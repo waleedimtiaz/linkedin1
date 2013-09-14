@@ -7,7 +7,7 @@
           </div>
           <div class="signin-wrapper">
             <div class="signin-box">
-              <form id="signin-form" class="signin-form"  method="post" action="asd.php">
+              <form id="signin-form" class="signin-form"  method="post" action="#">
             <div class="field-wrapper">
               <label for="email-reg">Email: </label>
               <div class="field-error">

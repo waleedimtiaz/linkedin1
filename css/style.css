@@ -9,6 +9,7 @@ div.header{
 	background-image: -webkit-linear-gradient(top, #696969 0%,#3f3f3f 100%);
 	height: 42px;
 	min-width: 980px;
+	margin-bottom: 20px;
 }
 
 div.header-content{
@@ -55,6 +56,61 @@ div.header-links .link-wrapper:active{
 	background: black;
 }
 
+
+div.header1{
+	width: 100%;
+	background-color: transparent;	
+	height: 20px;
+	min-width: 980px;
+}
+
+div.header-logo1{
+	width: 10%;
+	height: 15%;
+	float: left;
+}
+
+div.header-content1{
+	width: 805px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+div.header-links1{
+	width: 70%;
+	height: 100%;
+	float: right;
+	text-align: right;
+}
+
+div.header-links1 a{
+	line-height: 42px;
+	font-size: 12px;
+}
+div.header-links1 p{
+	color: black;
+	line-height: 42px;
+	font-size: 12px;
+}
+div.header-links1 .link-wrapper1{
+	float: right;
+	padding: 0px 7.5px;
+}
+div.footer2{
+	width: 100%;
+	height: 13px;
+}
+div.footer2-data{
+	width: 805px;
+	height: 13px;
+	margin: 0 auto;
+}
+div.footer2-data p.corp{
+	font-size: 10px;
+	
+	width: 805px;
+	text-align: left;
+}
 div.container{
 	width: 980px;
 	min-height: 503px;
@@ -440,6 +496,7 @@ body{
 
     background: #e9e9e9;
 	background-image: url('../images/bg.png');
+	padding-top: 20px;
 
 }
 
@@ -571,8 +628,8 @@ div.join-page-title h1{
 	font-size: 18px;
 	font-weight: normal;
 	padding: 16px 18px;
-	background: #aaa url('../images/bg_grey.png') repeat-x bottom left;
-	color: white;
+	background: #aaa url('../images/bg_blue.png') repeat-x bottom left;
+	color: transparent;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
@@ -676,9 +733,12 @@ div.join-today-sign-in-with{
 div.join-today-sign-in-with p{
 	font-size: 20px;
 	font-weight: normal;
-	color: #333;
+	background: white url('../images/bg_text.png') no-repeat center;
+	color: transparent;
+	
 	letter-spacing: .02em;
-	line-height: 1.1em;
+	line-height: 1.4em;
+
 	font-style: italic;
 	font-family: LazyDogRegular,Arial,sans-serif;
 
@@ -690,28 +750,19 @@ div.join-today-actions{
 
 }
 
-a.fb_button{
-	color: #069;
-	background: #29447e url('../images/fb-logo.png') 0 -44px no-repeat;
-	display: inline-block;
-	padding: 0 0 0 1px;
-	outline: none;
-	margin-bottom: 10px;
-
+div.join-today-actions a{
+	text-decoration: none;
 }
 
-span.fb_button_text{
-	background: #5f78ab url('../images/fb-logo.png');
-	border-top: 1px solid #879ac0;
-	border-bottom: 1px solid #1a356e;
-	color: #fff;
-	display: block;
-	font-weight: bold;
-	font-size: 11px;
-	padding: 2px 6px 3px 6px;
-	margin: 1px 1px 0 21px;
-	height: 16px;
-	line-height: 17px;
+
+a.fb_button p{
+	font-size: 17px;
+	font-weight: normal;
+	background: white url('../images/fb_button.png') no-repeat center;
+	color: transparent;
+	letter-spacing: .02em;
+	line-height: 1.4em;
+
 
 }
 

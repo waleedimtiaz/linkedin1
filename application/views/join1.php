@@ -1,3 +1,8 @@
+  <style type="text/css">
+ body {
+        padding-top: 0px;
+      }
+      </style>
    <div class="join-main">
           
           <div class="join-page-title">
@@ -58,7 +63,7 @@
             <div class="join-today-actions">              
                 
                   <a class="fb_button" href="<?php echo base_url(); ?>">
-                    <span class="fb_button_text">Sign up with Facebook</span>
+                    <p>Sign up with Facebook</p>
                   </a>
                   
             </div>
@@ -68,7 +73,7 @@
               <strong>*</strong>
             By joining LinkedIn, you agree to linkedIn's
             <div class="agreement-links">
-               <a href="<?php echo base_url(); ?>">User Agreement</a>
+               <a href="<?php echo base_url(); ?>index.php/control/useragreement">User Agreement</a>
                ,
                <a href="<?php echo base_url(); ?>">Privacy Policy</a>
                and

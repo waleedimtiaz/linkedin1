@@ -39,16 +39,16 @@
                 <h3>1.2. Scope and Intent</h3>
                 <p>
           You agree that by registering on LinkedIn, or by using our website, including our mobile applications, developer platform, premium services, or other information provided as part of the LinkedIn services (collectively “LinkedIn” or the “Services”), you are entering into a legally binding agreement with LinkedIn Corporation, 2029 Stierlin Court, Mountain View, California 94043, USA if you reside in the United States, and with LinkedIn Ireland Limited, Gardner House, Wilton Plaza, Wilton Place, , Dublin 2, Ireland, if you reside outside the United States (“we,” “us,” “our,” and “LinkedIn”) based on the terms of this LinkedIn User Agreement and the LinkedIn 
-                <a href="">Privacy Policy</a>
+                <a href="#">Privacy Policy</a>
                 , which is hereby incorporated by reference (collectively referred to as the “Agreement”) and become a LinkedIn member (“Member”). If you are using LinkedIn on behalf of a company or other legal entity, you are nevertheless individually bound by this Agreement even if your company has a separate agreement with us. If you do not want to register an account and become a LinkedIn Member, do not enter into this Agreement, do NOT click “Join Now” and do not access, view, download or otherwise use any LinkedIn webpage, information or services. By clicking “Join Now” (or “Join LinkedIn” or similar), you acknowledge that you have read and understood the terms and conditions of this Agreement and that you agree to be bound by all of its provisions. By clicking “Join Now,” you also consent to use electronic signatures and acknowledge your click of the “Join Now” button as one. Please note that the LinkedIn User Agreement and 
-                 <a href="/legal/privacy-policy">Privacy Policy</a>
+                 <a href="#">Privacy Policy</a>
                   are also collectively referred to as LinkedIn’s “Terms of Service.”
         
                  </p>
              </div>
 
              <div class="agreement-back">
-                <a href="">back to top</a>
+                <a href="#">back to top</a>
              </div>
 
     </div>

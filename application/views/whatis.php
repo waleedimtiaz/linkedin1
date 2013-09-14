@@ -48,7 +48,7 @@
 				<p class="whatis-tagline">
 					It's free.
 				</p>
-				<button type="button">Join Now</button> 
+				<a href="#"><button type="button" >Join Now</button> </a>
 
 			</div>
 		</div>

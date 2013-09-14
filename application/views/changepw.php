@@ -14,7 +14,7 @@
           
           <div class="pw-wrapper">
             <div class="pw-box">
-              <form id="pw-form" class="pw-form"  method="post" onsubmit="return reg_validation()" action="asd.php">
+              <form id="pw-form" class="pw-form"  method="post" action="#">
             <div class="field-wrapper">
               <label for="email-reg">Please enter your email address to get instructions. </label>
               <div class="field-error">

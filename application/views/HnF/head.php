@@ -1,3 +1,4 @@
+<div class="navbar-fixed-top">
 <div class="header">
       
       <div class="header-content">
@@ -18,3 +19,5 @@
         </div>
       </div>
     </div>
+
+  </div>
