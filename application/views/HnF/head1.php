@@ -8,10 +8,10 @@
         <div class="header-links1">
           
           <a href="<?php echo base_url(); ?>index.php/control/signin">
-            <div class="link-wrapper1">SignIn</div>
+            <div class="link-wrapper1">SignIn</div></a>
             <div class="link-wrapper1">
           <p> Already on LinkedIn? </p></div>
-          </a>
+          
         </div>
       </div>
     </div>
