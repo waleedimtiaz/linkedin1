@@ -112,6 +112,7 @@
               <a href="<?php echo base_url(); ?>">x</a>
               <a href="<?php echo base_url(); ?>">y</a>
               <a href="<?php echo base_url(); ?>">z</a>
+              <a href="<?php echo base_url(); ?>">more</a>
               
             </div>
           
