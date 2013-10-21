@@ -467,8 +467,28 @@ div.myerrorbar{
 	display: none;
 }
 
+div.myerrorbar1{
+	padding: 5px;
+	/*display: none;*/
+}
+div.myerrorbar2{
+width: 702px;
+	height: 20px;
+	margin-top: 22px;
+	margin-left: 30px;
+	
+	display:none;
+}
+div.myerrorbar3{
+width: 702px;
+	height: 20px;
+	margin-top: 22px;
+	margin-left: 30px;
+	
+}
 img.error-icon{
 	width: 25px;
+
 }
 
 span.error-text{
@@ -480,6 +500,18 @@ span.error-text{
 div.field-error{
 	width: 175px;
 	padding-left: 110px;
+}
+div.field-error1{
+	/*width: 175px;*/
+	padding-left: 110px;
+}
+
+span.form-error-text1{
+	color: #900;
+	font-weight: bold;
+	font-size: 12px;
+	/*width: 175px;*/
+	
 }
 
 span.form-error-text{
@@ -504,7 +536,7 @@ div.signin-main{
     margin-left: auto;
     margin-right: auto;
     width: 974px;
-    height: 220px;
+    height: 270px;
     margin-top: 40px;
     margin-bottom: 10px;
 }
@@ -513,6 +545,7 @@ div.signin-page-title{
 
 	width: 954px;
 	height: 24px;
+	padding-bottom: 20px;
 	
 }
 
@@ -599,16 +632,150 @@ form.signin-form div.field-error{
 .forgot-password-link{
 	font-size: 11px;
 }
+/* basic profile form */
+div.basic-p-title{
+
+	width: 761px;
+	height: 30px;
+	margin-top: 22px;
+	margin-left: 24px;
+	margin-bottom: 20px;
+}
+div.basic-p-title h1{
+	font-size: 16px;
+	font-weight: normal;
+	color: blue;
+	border-bottom: solid 1px;
+	
+}
+div.basic-box{
+    width: 500px;
+    min-height: 205px;  
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    border-right: 1px solid #ccc;
+    float: left;
+}
+div.basic-p-extra{
+	
+	float: right;
+	height: 124px;
+	width: 156px;
+	margin-top: 57px;
+	
+}
+div.box-main{
+  margin-left: auto;
+	margin-right: auto;
+	width: 927px;
+	min-height: 471px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background: white;
+	border: 1px solid #ccc;
+}
+div.basic-p-data{
+	width: 126px;
+	height: 95px;
+	text-align: center;
+
+}
+.basic-form{
+	height: 229px;
+
+}
 
 
+form.basic-form label{
+	display: block;
+	float: left;
+	width: 127px;
+	text-align: right;
+	line-height: 29px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+form.basic-form input{
+	margin: 3px 7px 0 0;
+	width: 275px;
+}
+
+form.basic-form button{
+	height: 23px;
+	width: 74px;
+	padding: 0;
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 125px;
+}
+
+div#to{
+	position: relative;
+	left: 160px;
+top: -40px;
+
+}
+
+.basic-form div.field-wrapper{
+	width: 100%;
+	min-height: 29px;
+	margin-bottom: 8px;
+}
+
+.basic-form div.field-wrapper-password p{
+	color: #666;
+	font-size: 11px;
+	margin-left: 129px;
+}
+.basic-form div.field-wrapper-option{
+	width: 100%;
+	height: 29px;
+	padding-bottom: 10px;
+	margin-bottom: 8px;
+}
+
+.basic-form div.field-wrapper-password {
+	width:100%;
+	min-height:50px;
+}
+
+.basic-form select#country{
+	width: 275px;
+	height: 25px;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+
+.basic-form select#date{
+	width: 105px;
+	height: 25px;
+	margin-bottom: 8px;
+	font-size: 15px;
+}
+#actions{
+	padding-top: 20px;
+	height: 23px;
+	width: 215px;
+	
+}
+
+
+form.basic-form div.field-error{
+	width: 202px;
+	padding-left: 127px;
+}
 /* join Page */
 
 
 div.join-main{
   margin-left: auto;
 	margin-right: auto;
-	width: 807px;
-	min-height: 421px;
+	width: 827px;
+	min-height: 471px;
 	margin-top: 20px;
 	margin-bottom: 10px;
 	background: white;
@@ -637,8 +804,8 @@ div.join-page-title h1{
 
 
 div.join-box{
-    width: 450px;
-    min-height: 255px;  
+    width: 460px;
+    min-height: 275px;  
     margin-top: 20px;
     margin-bottom: 20px;  
     border-right: 1px solid #ccc;
@@ -646,7 +813,7 @@ div.join-box{
 }
 
 .join-form{
-	height: 199px;
+	height: 229px;
 }
 
 
@@ -700,6 +867,7 @@ form.join-form .already-on-linkedin-message{
 
 
 #actions{
+	padding-top: 20px;
 	height: 23px;
 	width: 215px;
 	
@@ -1256,4 +1424,474 @@ div.agreement-back
 	font-size: 16px;
 	font-weight: normal;
 	font: inherit;
+}
+
+
+
+
+/* signin2 page*/
+
+div.signin2-main{
+	width: 807px;
+	height: 311px;
+	background: #fff;
+	padding: 0;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	margin-top: 21px;
+	margin-bottom: 21px;
+
+}
+div.signin2-wrapper{
+	padding: 15px;
+	height: 283px;
+
+
+}
+
+div.signin2-container{
+	width: 775px;
+	height: 225px;
+
+}
+
+div.signin2-heading{
+	width: 775px;
+	height: 26px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 6px;
+	margin-bottom: 18px;
+
+}
+div.signin2-heading h1{
+	width: 75%;
+	float: left;
+	font-size: 17px;
+	color: #39c;
+	height: 19px;
+	line-height: 15px;
+	font-weight: normal;
+
+}
+div.signin2-heading-right{
+	float: right;
+	margin-top: 1px;
+	width: 170px;
+	height: 15px;
+
+}
+
+span.summary{
+	float: left;
+	width: 63px;
+	height: 15px;
+
+}
+span. progress-meter{
+	float: right;
+	width: 102px;
+	height: 14px;
+	border: 1px solid #666;
+	overflow: hidden;
+	background: transparent url('../images/progress_meter.png') repeat-x 0 0;
+	width: 100px;
+	background: red;
+
+}
+span.has-progress{
+	border-right: 1px solid #666;
+	background: transparent url('../images/progress_meter.png') repeat-x 0 -50px;
+
+}
+div.signin2-middle{
+	width: 552px;
+	height: 143px;
+	margin: 0 auto;
+	background: #DDF0F8;
+	border: 1px solid #9acce6;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 0
+}
+div.signin2-middle-top{
+	padding: 0 15px 20px 15px;
+	width: 520px;
+	height: 128px;
+
+}
+p.intro{
+	width: 500px;
+	height: 15px;
+	margin: 5px 10px 15px 10px;
+}
+div.signin2-box{
+	width: 500px;
+	height: 76px;
+	margin: 0 10px;
+
+}
+
+
+.signin2-form{
+	height: 76px;
+}
+
+.signin2-form div.field-wrapper{
+	width: 100%;
+	min-height: 26px;
+	margin-bottom: 8px;
+}
+
+
+
+form.signin2-form label{
+	display: block;
+	float: left;
+	width: 125px;
+	text-align: right;
+	line-height: 29px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #333;
+	
+	margin-bottom: 0px;
+}
+
+form.signin2-form input{
+	margin: 3px 7px 0 0;
+	width: 293px;
+	height: 22px;
+	border-radius: 0px;
+	display: inline;
+	
+	
+	position: relative
+}
+p.signin2-skip{
+	width: 550px;
+	height: 15px;
+	margin: 15px auto 40px auto;
+	text-align: right;
+}
+p.signin2-skip a{
+	color: #069;
+}
+p.signin2-skip a:hover{
+	text-decoration: underline;
+}
+span.summary{
+	width: 75px;
+}
+
+.signin2-heading .bar{
+	margin-top: 3px;
+}
+
+.signin2-middle-top p.intro {
+	width: 500px;
+	height: 15px;
+	margin: 11px 10px 15px 10px;
+	font-size: 13px;
+}
+
+div.signin2-box div.field-error{
+	width: 295px;
+	padding-left: 130px;
+}
+
+div.signin2-box button{
+	margin-left: 130px;
+}
+
+span.signin2-disclaimer{
+	margin-left: 130px;
+	display: block;
+	color: #666;
+	font-size: 11px;
+}
+
+#confirm-skip{
+	top: 25%;
+}
+
+/* signin3 page */
+
+div.signin3-main{
+	width: 804px;
+	height: 463px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0;
+	border: 1px solid #ccc;
+	margin-top: 21px;
+	margin-bottom: 21px;
+
+
+}
+div.signin3-main-wrapper{
+	padding: 15px;
+	height: 448px;
+
+}
+
+div.signin3-container{
+	width: 775px;
+	height: 159px;
+
+}
+
+div.signin3-container-content{
+	width: 552px;
+	height: 159px;
+	margin: 72px auto 200px;
+	background: #DDF0F8;
+	border: 1px solid #9acce6;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 0;
+}
+div.signin3-container-wrapper{
+	padding: 0 15px 20px 15px;
+	width: 522px;
+	height: 139px;
+
+}
+div.signin3-container-wrapper h1{
+	font-weight: normal;
+	color: #39c;
+	width: 520px;
+	height: 19px;
+	font-size: 123%;
+	line-height: 19px;
+}
+
+div.signin3-container-wrapper p{
+	
+	height: 15px;
+	font-size: 95%;
+	margin: 10px 0 15px;
+}
+span.para{
+	width: 520px;
+	height: 30px;
+}
+div.signin3-container-link{
+
+	width: 520px;
+	height: 26px;
+}
+p.signin3-right-link{
+	width: 202px;
+	height: 15px;
+	float: right;
+	text-align: right;
+	
+}
+p.signin3-right-link a{
+	color: #069;
+}
+p.signin3-right-link a:hover{
+	text-decoration: underline;
+}
+
+
+div.step3-main{
+	width: 807px;
+	height: 450px;
+	background: #fff;
+	padding: 0;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	margin-top: 21px;
+	margin-bottom: 21px;
+
+}
+
+div.step3-progress
+{
+	width: 775px;
+	height: 38px;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 6px;
+	margin-bottom: 5px;
+	float: auto;
+	margin-left: 15px
+
+}
+
+div.step3-progress h1
+{
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 120%;
+	width: 75%;
+	float: left;
+	color: #39c;
+}
+
+div.step3-prog
+{
+	float: right;
+	margin-top: 20px;
+	width: 22%;
+}
+
+div.step3-wrapper
+{
+	width: 805px;
+	height: 430px;
+
+}
+
+div.step3-global-error
+{
+	width: 775px;
+	height: 0px;
+}
+
+div.step3-peopleknw
+{
+	margin-left: 15px;
+	width: 775px;
+	height: 400px;
+}
+
+div.step3-peopleknw h2
+{
+	width: 775px;
+	height: 15px;
+	font-size: 100%;
+	font-weight: normal;
+	margin-bottom: 28px;
+}
+
+div.summary{
+	
+	font-size: 130%;
+	float: left;
+
+}
+
+div.summary strong
+{
+	font-size: bold;
+}
+
+div.step3-meter
+{
+
+}
+
+
+div.step3-form
+{
+	width: 775px;
+	height: 330px;
+}
+
+div.step3-formdiv
+{ 
+	width: 757px;
+	height: 27px;
+background-color: #ccc;
+color: #333;
+padding: 0 8px;
+border: 1px solid #ccc;
+overflow: hidden;
+zoom: 1;
+margin-top: 1em;
+
+}
+
+div.nonselected
+{
+	width: 100px;
+	height: 25px;
+	float: right;
+}
+
+div.friend
+{
+	width: 773px;
+	height: 252px;
+	position: relative;
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	overflow: hidden;
+	overflow-y:auto;
+	margin-bottom: 2em;
+	margin-bottom: 0;
+	border: 1px solid #ccc; 
+}
+
+div.end
+{
+	width: 500px;
+	height: 150px;
+	margin-top: 25px;
+}
+
+.signin7-middle{
+	padding: 0 110px 20px;
+}
+
+.signin7-mini-profile{
+	border: 1px solid #ccc;
+	padding: 12px 16px 18px;
+	background-color: #f9f9f9
+}
+
+.signin7-tweet-text{
+	border: 1px solid #ccc;
+	padding: 12px 16px 18px;
+	background-color: #f9f9f9
+	
+	margin: 0 0 15px;
+	border: 1px solid #91cde7;
+	border-width: 0 1px 1px;
+	background: #dbf0f9;
+	overflow: hidden;
+	padding: 10px;
+	
+	margin-bottom: 10px;
+}
+
+
+.signin7-mini-profile h1{
+	font-family: Georgia,serif;
+	font-size: 26px;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.signin7-mini-profile .title{
+	font-size: 15px;
+	margin: 0 0 2px;
+	color: #444;
+}
+
+.signin7-mini-profile .location{
+	font-size: 12px;
+	color: #777;
+}
+
+#tweet-text{
+	width: 535px;
+}
+
+div.signin7-main{
+	width: 807px;
+	height: 375px;
+	background: #fff;
+	padding: 0;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+	margin-top: 21px;
+	margin-bottom: 21px;
+
 }

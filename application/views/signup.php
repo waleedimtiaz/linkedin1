@@ -9,6 +9,15 @@
       <div class="alert alert-error myerrorbar">
       <img class="error-icon" src="<?php echo base_url(); ?>images/error.png" /> <span class="error-text">Please correct the marked field(s) below.</span>
       </div>
+      <?php if( isset($msg))
+          {  ?> <span id="email-reg-error1">
+          <div class="alert alert-error myerrorbar3" >
+          <img class="error-icon" src="<?php echo base_url(); ?>images/error.png" /> 
+          <span class="error-text">The email address, <?php echo $this->session->userdata('email_e') ?> , is already registered.</a></span>
+          </div></span>
+          <?php
+          }
+          ?>
       <div class="main">
           <div class="static-left">
              <h1>Over 225 million professionals use LinkedIn to exchange information, ideas and opportunities</h1>
@@ -31,7 +40,7 @@
             <h2>Join LinkedIn Today</h2>
           </div>
           <div class="form-box">
-            <form id="reg-form" class="reg-form" onsubmit="return reg_validation()" method="post" action="asd.php">
+            <form id="reg-form" class="reg-form" onsubmit="return reg_validation()" method="post" action="<?php echo base_url(); ?>index.php/register">
               <div class="field-wrapper">
                 <label for="fname-reg">First Name: </label>
                 <div class="field-error">
@@ -47,6 +56,14 @@
                   </div>
               </div>
               <div class="field-wrapper">
+                 <?php if( isset($msg))
+                      {  ?> 
+                      The email address, <?php echo $this->session->userdata('email_e') ?> , is already registered. Already on LinkedIn?
+                      <a href="<?php echo base_url(); ?>index.php/signin">SignIn.</a></span>
+                      <?php
+                      }
+                      $this->session->unset_userdata('email_e');
+                      ?>
                 <label for="email-reg">Email: </label>
                 <div class="field-error">
                   <span id="email-reg-error" class="form-error-text"></span>
@@ -64,7 +81,7 @@
               
               <button type="submit" class="btn btn-success">Join Now</button> <span class="asterik">*</span>
               <p class="already-on-linkedin-message">Already on LinkedIn?
-                <a href="<?php echo base_url(); ?>index.php/control/signin">Sign in.</a>
+                <a href="<?php echo base_url(); ?>index.php/signin">Sign in.</a>
               </p>
             </form>
           </div>
